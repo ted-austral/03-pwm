@@ -1,6 +1,6 @@
 /*
  *      Project 03-pwm
- *      Using a potentiometer connected to the A/D converter, changes brightness of an LED (PWM)
+ *      Using a potentiometer connected to the A/D converter, changes LED brightness (PWM)
  *
  *      main.cpp
  */
@@ -13,8 +13,8 @@
 
 /*
  *  Definitions in platformio.ini
- *  LED1        IOport for led
- *  ANAIN       A/D converter IOport
+ *  LED1        GPIO for LED
+ *  ANAIN       A/D converter GPIO
  *  SERIAL_BAUD Serial port baud rate
  */
 
@@ -41,7 +41,7 @@ setup(void)
 void
 loop(void)
 {
-    int sensorValue; //  Local or automatic variable
+    int sensorValue;
 
     sensorValue = analogRead(ANAIN);
     ledcWrite(ledChannel, sensorValue);

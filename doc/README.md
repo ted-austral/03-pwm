@@ -1,7 +1,7 @@
 
 #   Project 03-pwm
 
-##  Using a potentiometer connected to the A/D converter, changes brightness of an LED (PWM)
+##  Using a potentiometer connected to the A/D converter, changes LED brightness (PWM)
 
     IntroCom - Austral - 2022 - EAM
     Uses ESP32 microcontroller
@@ -24,7 +24,7 @@
 ###  Verification
 
     As you change potentiometer form one end to the other, serial monitor
-    shows converted value and LED change brightness
+    shows converted value and how LED change brightness
 
 ###  Links
 
