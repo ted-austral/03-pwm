@@ -28,13 +28,9 @@
 
 ###  Links
 
-#### Electronics Hub - In-depth ESP32 PWM Tutorial | How to use PWM in ESP32?
+[Electronics Hub - In-depth ESP32 PWM Tutorial | How to use PWM in ESP32?](https://www.electronicshub.org/esp32-pwm-tutorial/)
 
-    https://www.electronicshub.org/esp32-pwm-tutorial/
-
-#### Circuit Digest - ESP32 PWM Tutorial: Controlling the Brightness of LED
-
-    https://circuitdigest.com/microcontroller-projects/esp32-pwm-tutorial-controlling-brightness-of-led
+[Circuit Digest - ESP32 PWM Tutorial: Controlling the Brightness of LED](https://circuitdigest.com/microcontroller-projects/esp32-pwm-tutorial-controlling-brightness-of-led)
 
 
 
